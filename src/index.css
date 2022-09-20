@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cityCard{
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  background-size: cover;
+  background-blend-mode: lighten;
+  margin: 30px;
+  text-align: center
+
+}
+.cityCard:hover{
+  transform: scale(1.01);
+}
+
+.search{
+  overflow: visible;
+  height: 40px;
+}
+.searchreturn{
+  background-color: #1976d2c3;
+  border: solid;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.searchreturn:hover{
+  background-color: #1976d2;
+}
+
+.cities{
+  width: 100%;
+}
